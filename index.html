@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="files/AdaptiveText/AdaptiveText.css" rel="stylesheet">
+    <title>CSS-библиотека "AdaptiveText"</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__title">
+                <a href="index.html" class="burger back_home">
+                    <i class="material-icons">menu</i>
+                </a>
+                <img src="img/logo1.PNG" alt="Логотип" class="logo-synopsis">
+            </div>
+            <h1 class="red center">С гордостью предствляем!</h1>
+            <h4 class="white center m-t-30">CSS-библиотека, собственной разработки, которая облегчит адаптацию сайта под
+                мобильные устройства!</h4>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="m-t-50 m-b-50 center blue">AdaptiveText</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <img src="img/AdaptiveText.png" alt="Логотип">
+                </div>
+                <div class="col-6">
+                    <img src="img/logo2.PNG" alt="Логотип" style="width: 70%;">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <h4 class="m-t-50 center">Что это такое?</h4>
+                    <p class="m-t-30 center">Это библиотека, которая адаптирует текст под все расширения устройств! Вам
+                        нужно написать <span class="up line-down">одну строчку кода</span>, вместо <span
+                            class="up line-down">множества Media-запросов</span>.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <h4 class="m-t-50 center">Интересный факт</h4>
+                    <p class="m-t-30 center">Данная страница написана с помощью нашей библиотеки. Как вы можете заметить
+                        -
+                        она превосходно выглядит на <span class="up line-down">любом</span> экране!</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h4 class="m-t-50 center">Преимущества нашей библиотеки</h4>
+                </div>
+            </div>
+            <div class="row m-t-50">
+                <div class="col-4 center">
+                    <i class="material-icons">link</i>
+                    <p>Простота подключения и использования</p>
+                </div>
+                <div class="col-4 center">
+                    <i class="material-icons">clear_all</i>
+                    <p>Сокращение кода</p>
+                </div>
+                <div class="col-4 center">
+                    <i class="material-icons">format_color_text</i>
+                    <p>Дополнительные удобства (форматирование текста)</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h4 class="m-t-50 center">Как скачать?</h4>
+                </div>
+            </div>
+            <div class="row m-t-50 center">
+                <div class="col-6">
+                    <p class="m-b-30">Размер: 15 КБ.</p>
+                    <a class="button-install" href="files/AdaptiveText/AdaptiveText.css" download="">Скачать обычную
+                        версию</a>
+                </div>
+                <div class="col-6">
+                    <p class="m-b-30">Размер: 9 КБ.</p>
+                    <a class="button-install" href="files/AdaptiveText/AdaptiveText.min.css" download="">Скачать
+                        MIN-версию</a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h4 class="m-t-50 center">Документация</h4>
+                </div>
+                <div class="col-12 m-t-30">
+                    <h6>Подключение</h6>
+                    <p>Скачиваем любую версию нашей библиотеки и подключаем её, как обычный CSS-файл.</p>
+                    <code class="bg-gray white">
+                        &lt;<span>link</span> href="css/AdaptiveText.css" rel="stylesheet" /&gt;
+                    </code>
+                    <p class="up">или</p>
+                    <code class="bg-gray white">
+                        &lt;<span>link</span> href="css/AdaptiveText.min.css" rel="stylesheet" /&gt;
+                    </code>
+                    <p>Также можете подключить библиотеку по ссылке.</p>
+                    <code class="bg-gray white">
+                        &lt;<span>link</span> href="https://eugeneblogs.github.io/AdaptiveText/files/AdaptiveText.css" rel="stylesheet" /&gt;
+                    </code>
+                    <p class="up">или</p>
+                    <code class="bg-gray white">
+                        &lt;<span>link</span> href="https://eugeneblogs.github.io/AdaptiveText/files/AdaptiveText.min.css" rel="stylesheet" /&gt;
+                    </code>
+                </div>
+                <div class="divider m-t-30"></div>
+                <div class="col-12 m-t-30">
+                    <h6>Адаптивный текст <sup class="up red">главное достоинство</sup></h6>
+                    <p>С этим точно не возникнет проблем. Наша библиотека автоматически адаптируем элементы: <span
+                            class="red">h1</span>, <span class="red">h2</span>, <span class="red">h3</span>, <span
+                            class="red">h4</span>, <span class="red">h5</span>, <span class="red">h6</span>, <span
+                            class="red">p</span>, а также другие элементы с классами: <span class="red">.h1</span>,
+                        <span class="red">.h2</span>, <span class="red">.h3</span>, <span class="red">.h4</span>, <span
+                            class="red">.h5</span>, <span class="red">.h6</span>, <span class="red">.p</span>.
+                    </p>
+                    <h1>Я адаптивный заголовок первого уровня.</h1>
+                    <code class="bg-gray white">
+                            &lt;<span>h1</span>&gt;Я адаптивный заголовок первого уровня.&lt;<span>/h1</span>&gt;
+                        </code>
+                    <h2>Я адаптивный заголовок второго уровня.</h1>
+                        <code class="bg-gray white">
+                                &lt;<span>h2</span>&gt;Я адаптивный заголовок второго уровня.&lt;<span>/h2</span>&gt;
+                        </code>
+                        <h3>Я адаптивный заголовок третьего уровня.</h3>
+                        <code class="bg-gray white">
+                            &lt;<span>h3</span>&gt;Я адаптивный заголовок третьего уровня.&lt;<span>/h3</span>&gt;
+                        </code>
+                        <h4>Я адаптивный заголовок четвёртого уровня.</h4>
+                        <code class="bg-gray white">
+                            &lt;<span>h4</span>&gt;Я адаптивный заголовок четвёртого уровня.&lt;<span>/h4</span>&gt;
+                        </code>
+                        <h5>Я адаптивный заголовок пятого уровня.</h5>
+                        <code class="bg-gray white">
+                            &lt;<span>h5</span>&gt;Я адаптивный заголовок пятого уровня.&lt;<span>/h5</span>&gt;
+                        </code>
+                        <h6>Я адаптивный заголовок шестого уровня.</h6>
+                        <code class="bg-gray white">
+                            &lt;<span>h6</span>&gt;Я адаптивный заголовок шестого уровня.&lt;<span>/h6</span>&gt;
+                        </code>
+                        <p>Я адаптивный параграф.</p>
+                        <code class="bg-gray white">
+                            &lt;<span>p</span>&gt;Я адаптивный параграф.&lt;<span>/p</span>&gt;
+                        </code>
+                </div>
+                <div class="divider m-t-30"></div>
+                <div class="col-12 m-t-30">
+                    <h6>Цвета текста</h6>
+                    <p>Теперь из HTML-кода вы можете быстро присвоить цвет тексту! Мы предоставляем 11 вариантов!</p>
+                    <p class="red">Красный</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="red"</span>&gt;Красный&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="orange">Оранжевый</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="orange"</span>&gt;Оранжевый&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="yellow">Жёлтый</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="yellow"</span>&gt;Жёлтый&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="green">Зелёный</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="green"</span>&gt;Зелёный&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="cyan">Голубой</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="cyan"</span>&gt;Голубой&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="blue">Синий</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="blue"</span>&gt;Синий&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="purple">Фиолетовый</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="purple"</span>&gt;Фиолетовый&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="pink">Розовый</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="pink"</span>&gt;Розовый&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="black">Чёрный</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="black"</span>&gt;Чёрный&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="white">Белый</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="white"</span>&gt;Белый&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="gray">Серый</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="gray"</span>&gt;Серый&lt;<span>/p</span>&gt;
+                    </code>
+                </div>
+                <div class="divider m-t-30"></div>
+                <div class="col-12 m-t-30">
+                    <h6>Цвета фона</h6>
+                    <p>Эти же цвета можно использовать в качестве фона!</p>
+                    <p class="bg-red">Красный</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="bg-red"</span>&gt;Красный&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="bg-orange">Оранжевый</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="bg-orange"</span>&gt;Оранжевый&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="bg-yellow">Жёлтый</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="bg-yellow"</span>&gt;Жёлтый&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="bg-green">Зелёный</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="bg-green"</span>&gt;Зелёный&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="bg-cyan">Голубой</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="bg-cyan"</span>&gt;Голубой&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="bg-blue">Синий</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="bg-blue"</span>&gt;Синий&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="bg-purple">Фиолетовый</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="bg-purple"</span>&gt;Фиолетовый&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="bg-pink">Розовый</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="bg-pink"</span>&gt;Розовый&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="bg-black">Чёрный</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="bg-black"</span>&gt;Чёрный&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="bg-white">Белый</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="bg-white"</span>&gt;Белый&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="bg-gray">Серый</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="bg-gray"</span>&gt;Серый&lt;<span>/p</span>&gt;
+                    </code>
+                </div>
+                <div class="divider m-t-30"></div>
+                <div class="col-12 m-t-30">
+                    <h6>Градиенты</h6>
+                    <p>Ещё один вариант украсить сайт - градиент - перелив одного цвета в другой.</p>
+                    <p class="gradient-red">Красный</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="gradient-red"</span>&gt;Красный&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="gradient-yellow">Жёлтый</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="gradient-yellow"</span>&gt;Жёлтый&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="gradient-green">Зелёный</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="gradient-green"</span>&gt;Зелёный&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="gradient-blue">Синий</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="gradient-blue"</span>&gt;Синий&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="gradient-purple">Фиолетовый</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="gradient-purple"</span>&gt;Фиолетовый&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="gradient-dark">Тёмный</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="gradient-dark"</span>&gt;Тёмный&lt;<span>/p</span>&gt;
+                    </code>
+                </div>
+                <div class="divider m-t-30"></div>
+                <div class="col-12 m-t-30">
+                    <h6>Прозрачность</h6>
+                    <p>Если нужно сделать что-то менее видным!</p>
+                    <p class="tr-0">0%</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="tr-0"</span>&gt;0%&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="tr-1">10%</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="tr-1"</span>&gt;10%&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="tr-2">20%</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="tr-2"</span>&gt;20%&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="tr-3">30%</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="tr-3"</span>&gt;30%&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="tr-4">40%</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="tr-4"</span>&gt;40%&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="tr-5">50%</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="tr-5"</span>&gt;50%&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="tr-6">60%</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="tr-6"</span>&gt;60%&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="tr-7">70%</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="tr-7"</span>&gt;70%&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="tr-8">80%</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="tr-8"</span>&gt;80%&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="tr-9">90%</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="tr-9"</span>&gt;90%&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="tr-10">100%</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="tr-10"</span>&gt;100%&lt;<span>/p</span>&gt;
+                    </code>
+                </div>
+                <div class="divider m-t-30"></div>
+                <div class="col-12 m-t-30">
+                    <h6>Расположение текста</h6>
+                    <p>Привязка текста к одной из трёх сторон.</p>
+                    <h6 class="left">Слева</h6>
+                    <p class="left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem pariatur
+                        nobis expedita asperiores qui voluptatibus dolorem nisi adipisci ea provident doloribus quo
+                        debitis praesentium, minus vero quas obcaecati natus! Velit sit magnam repellendus mollitia
+                        saepe vitae repellat voluptatibus dolores! Quia sint id voluptatibus labore ullam illum, a
+                        molestiae eos, cum est consequatur quos illo aliquam dolorum dicta. Quis consequuntur aut
+                        perspiciatis ratione necessitatibus optio excepturi quod beatae ipsum assumenda impedit
+                        asperiores, deserunt aspernatur voluptatibus quidem placeat ut dolor iusto eum eveniet atque
+                        iure. Fugit praesentium, amet neque iure eveniet, earum ratione excepturi enim, tempore aliquam
+                        architecto at doloremque accusamus.</p>
+                    <code class="bg-gray white">
+                        &lt;<span>h6 class="left"</span>&gt;Слева&lt;<span>/h6</span>&gt;
+                    </code>
+                    <h6 class="center">Центр</h6>
+                    <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem pariatur
+                        nobis expedita asperiores qui voluptatibus dolorem nisi adipisci ea provident doloribus quo
+                        debitis praesentium, minus vero quas obcaecati natus! Velit sit magnam repellendus mollitia
+                        saepe vitae repellat voluptatibus dolores! Quia sint id voluptatibus labore ullam illum, a
+                        molestiae eos, cum est consequatur quos illo aliquam dolorum dicta. Quis consequuntur aut
+                        perspiciatis ratione necessitatibus optio excepturi quod beatae ipsum assumenda impedit
+                        asperiores, deserunt aspernatur voluptatibus quidem placeat ut dolor iusto eum eveniet atque
+                        iure. Fugit praesentium, amet neque iure eveniet, earum ratione excepturi enim, tempore aliquam
+                        architecto at doloremque accusamus.</p>
+                    <code class="bg-gray white">
+                        &lt;<span>h6 class="center"</span>&gt;Центр&lt;<span>/h6</span>&gt;
+                    </code>
+                    <h6 class="right">Справа</h6>
+                    <p class="right">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem pariatur
+                        nobis expedita asperiores qui voluptatibus dolorem nisi adipisci ea provident doloribus quo
+                        debitis praesentium, minus vero quas obcaecati natus! Velit sit magnam repellendus mollitia
+                        saepe vitae repellat voluptatibus dolores! Quia sint id voluptatibus labore ullam illum, a
+                        molestiae eos, cum est consequatur quos illo aliquam dolorum dicta. Quis consequuntur aut
+                        perspiciatis ratione necessitatibus optio excepturi quod beatae ipsum assumenda impedit
+                        asperiores, deserunt aspernatur voluptatibus quidem placeat ut dolor iusto eum eveniet atque
+                        iure. Fugit praesentium, amet neque iure eveniet, earum ratione excepturi enim, tempore aliquam
+                        architecto at doloremque accusamus.</p>
+                    <code class="bg-gray white">
+                        &lt;<span>h6 class="right"</span>&gt;Справа&lt;<span>/h6</span>&gt;
+                    </code>
+                    <h6 class="justify">Равномерно</h6>
+                    <p class="justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem pariatur
+                        nobis expedita asperiores qui voluptatibus dolorem nisi adipisci ea provident doloribus quo
+                        debitis praesentium, minus vero quas obcaecati natus! Velit sit magnam repellendus mollitia
+                        saepe vitae repellat voluptatibus dolores! Quia sint id voluptatibus labore ullam illum, a
+                        molestiae eos, cum est consequatur quos illo aliquam dolorum dicta. Quis consequuntur aut
+                        perspiciatis ratione necessitatibus optio excepturi quod beatae ipsum assumenda impedit
+                        asperiores, deserunt aspernatur voluptatibus quidem placeat ut dolor iusto eum eveniet atque
+                        iure. Fugit praesentium, amet neque iure eveniet, earum ratione excepturi enim, tempore aliquam
+                        architecto at doloremque accusamus.</p>
+                    <code class="bg-gray white">
+                        &lt;<span>h6 class="justify"</span>&gt;Равномерно&lt;<span>/h6</span>&gt;
+                    </code>
+                    <h6>Обычный текст (для сравнения)</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem pariatur
+                        nobis expedita asperiores qui voluptatibus dolorem nisi adipisci ea provident doloribus quo
+                        debitis praesentium, minus vero quas obcaecati natus! Velit sit magnam repellendus mollitia
+                        saepe vitae repellat voluptatibus dolores! Quia sint id voluptatibus labore ullam illum, a
+                        molestiae eos, cum est consequatur quos illo aliquam dolorum dicta. Quis consequuntur aut
+                        perspiciatis ratione necessitatibus optio excepturi quod beatae ipsum assumenda impedit
+                        asperiores, deserunt aspernatur voluptatibus quidem placeat ut dolor iusto eum eveniet atque
+                        iure. Fugit praesentium, amet neque iure eveniet, earum ratione excepturi enim, tempore aliquam
+                        architecto at doloremque accusamus.</p>
+                    <code class="bg-gray white">
+                        &lt;<span>h6</span>&gt;Обычный текст (для сравнения)&lt;<span>/h6</span>&gt;
+                    </code>
+                </div>
+                <div class="divider m-t-30"></div>
+                <div class="col-12 m-t-30">
+                    <h5>Пространство между...</h5>
+                    <h6 class="m-t-10">Словами</h6>
+                    <p class="sp-w-min">Маленькое Маленькое Маленькое Маленькое Маленькое</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="sp-w-min"</span>&gt;Маленькое Маленькое Маленькое Маленькое Маленькое&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="sp-w-med">Среднее Среднее Среднее Среднее Среднее</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="sp-w-med"</span>&gt;Среднее Среднее Среднее Среднее Среднее&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="sp-w-max">Большое Большое Большое Большое Большое</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="sp-w-max"</span>&gt;Большое Большое Большое Большое Большое&lt;<span>/p</span>&gt;
+                    </code>
+                    <h6 class="m-t-10">Буквами</h6>
+                    <p class="sp-let-min">Маленькое</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="sp-let-min"</span>&gt;Маленькое&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="sp-let-med">Среднее</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="sp-let-med"</span>&gt;Среднее&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="sp-let-max">Большое</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="sp-let-max"</span>&gt;Большое&lt;<span>/p</span>&gt;
+                    </code>
+                    <h6 class="m-t-10">Строками</h6>
+                    <p class="sp-line-min">Маленькое<br>Маленькое</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="sp-line-min"</span>&gt;Маленькое&lt;<span>br</span>&gt;Маленькое&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="sp-line-med">Среднее<br>Среднее</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="sp-line-med"</span>&gt;Среднее&lt;<span>br</span>&gt;Среднее&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="sp-line-max">Большое<br>Большое</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="sp-line-max"</span>&gt;Большое&lt;<span>br</span>&gt;Большое&lt;<span>/p</span>&gt;
+                    </code>
+                </div>
+                <div class="divider m-t-30"></div>
+                <div class="col-12 m-t-30">
+                    <h6>Стили текста</h6>
+                    <p>Дополнительный фишки для быстрого форматирования текста!</p>
+                    <p class="normal">Обычный текст</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="normal"</span>&gt;Обычный текст&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="bold">Жирный текст</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="bold"</span>&gt;Жирный текст&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="cursive">Курсив</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="cursive"</span>&gt;Курсив&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="line-down">Подчёркивание</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="line-down"</span>&gt;Подчёркивание&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="line-up m-t-30">Надчёркивание</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="line-up"</span>&gt;Надчёркивание&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="line-center">Перечёркивание</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="line-center"</span>&gt;Перечёркивание&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="up">Большие буквы</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="up"</span>&gt;Большие буквы&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="down">Маленькие буквы</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="down"</span>&gt;Маленькие буквы&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="start-up">Начинать с больших букв</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="start-up"</span>&gt;Начинать с больших букв&lt;<span>/p</span>&gt;
+                    </code>
+                </div>
+                <div class="divider m-t-30"></div>
+                <div class="col-12 m-t-30">
+                    <h6>Тень</h6>
+                    <p>Добавьте 3D-эффект вашему тексту!</p>
+                    <p class="shadow-left">Тень слева</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="shadow-left"</span>&gt;Тень слева&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="shadow-right">Тень спправа</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="shadow-right"</span>&gt;Тень спправа&lt;<span>/p</span>&gt;
+                    </code>
+                </div>
+                <div class="divider m-t-30"></div>
+                <div class="col-12 m-t-30">
+                    <h6>Скругление</h6>
+                    <p>Красивая рамка для фотографий.</p>
+                    <p>Лёгкое скругление</p>
+                    <img src="img/1.jpg" alt="Пример" class="round-25" style="width: 20%;">
+                    <code class="bg-gray white">
+                        &lt;<span>img src="img/Example.jpg" class="round-25"</span>&gt;
+                    </code>
+                    <p>Среднее скругление</p>
+                    <img src="img/2.jpg" alt="Пример" class="round-50" style="width: 20%;">
+                    <code class="bg-gray white">
+                        &lt;<span>img src="img/Example.jpg" class="round-50"</span>&gt;
+                    </code>
+                    <p>Сильное скругление</p>
+                    <img src="img/3.jpg" alt="Пример" class="round-75" style="width: 20%;">
+                    <code class="bg-gray white">
+                        &lt;<span>img src="img/Example.jpg" class="round-75"</span>&gt;
+                    </code>
+                    <p>Мощное скругление</p>
+                    <img src="img/4.jpg" alt="Пример" class="round-100" style="width: 20%;">
+                    <code class="bg-gray white">
+                        &lt;<span>img src="img/Example.jpg" class="round-100"</span>&gt;
+                    </code>
+                    <p>Максимальное скругление</p>
+                    <img src="img/5.jpg" alt="Пример" class="round-max" style="width: 20%;">
+                    <code class="bg-gray white">
+                        &lt;<span>img src="img/Example.jpg" class="round-max"</span>&gt;
+                    </code>
+                </div>
+                <div class="divider m-t-30"></div>
+                <div class="col-12 m-t-30">
+                    <h6>Внешние отступы</h6>
+                    <p>Допустимые значения отступов: 5,10,15,20,25,30.</p>
+                    <p class="m-l-30">Отступ слева</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="m-l-30"</span>&gt;Отступ слева&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="m-r-30">Отступ справа</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="m-r-30"</span>&gt;Отступ справа&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="m-t-30">Отступ сверху</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="m-t-30"</span>&gt;Отступ сверху&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="m-b-30">Отступ снизу</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="m-b-30"</span>&gt;Отступ снизу&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="m-a-30">Отступ со всех сторон</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="m-a-30"</span>&gt;Отступ со всех сторон&lt;<span>/p</span>&gt;
+                    </code>
+                </div>
+                <div class="divider m-t-30"></div>
+                <div class="col-12 m-t-30">
+                    <h6>Внутренние отступы</h6>
+                    <p>Допустимые значения отступов: 5,10,15,20,25,30.</p>
+                    <p class="p-l-30">Отступ слева</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="p-l-30"</span>&gt;Отступ слева&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="p-r-30">Отступ справа</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="p-r-30"</span>&gt;Отступ справа&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="p-t-30">Отступ сверху</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="p-t-30"</span>&gt;Отступ сверху&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="p-b-30">Отступ снизу</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="p-b-30"</span>&gt;Отступ снизу&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="p-a-30">Отступ со всех сторон</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="p-a-30"</span>&gt;Отступ со всех сторон&lt;<span>/p</span>&gt;
+                    </code>
+                </div>
+                <div class="divider m-t-30"></div>
+                <div class="col-12 m-t-30">
+                    <h5>Списки</h5>
+                    <p>Быстрая стилизация элементов <span class="red">ol</span> и <span class="red">ul</span>.</p>
+                    <h6 class="m-t-10 m-b-5">Круг</h6>
+                    <ul class="ul-disk">
+                        <li>Элемент</li>
+                        <li>Элемент</li>
+                        <li>Элемент</li>
+                    </ul>
+                    <code class="bg-gray white">
+                        &lt;<span>ul class="ul-disk"</span>&gt;<br>&lt;<span>li</span>&gt;Элемент&lt;<span>/li</span>&gt;<br>&lt;<span>li</span>&gt;Элемент&lt;<span>/li</span>&gt;<br>&lt;<span>li</span>&gt;Элемент&lt;<span>/li</span>&gt;<br>&lt;<span>/ul</span>&gt;
+                    </code>
+                    <h6 class="m-t-10 m-b-5">Пустой круг</h6>
+                    <ul class="ul-circle">
+                        <li>Элемент</li>
+                        <li>Элемент</li>
+                        <li>Элемент</li>
+                    </ul>
+                    <code class="bg-gray white">
+                        &lt;<span>ul class="ul-circle"</span>&gt;<br>&lt;<span>li</span>&gt;Элемент&lt;<span>/li</span>&gt;<br>&lt;<span>li</span>&gt;Элемент&lt;<span>/li</span>&gt;<br>&lt;<span>li</span>&gt;Элемент&lt;<span>/li</span>&gt;<br>&lt;<span>/ul</span>&gt;
+                    </code>
+                    <h6 class="m-t-10 m-b-5">Квадрат</h6>
+                    <ul class="ul-square">
+                        <li>Элемент</li>
+                        <li>Элемент</li>
+                        <li>Элемент</li>
+                    </ul>
+                    <code class="bg-gray white">
+                        &lt;<span>ul class="ul-square"</span>&gt;<br>&lt;<span>li</span>&gt;Элемент&lt;<span>/li</span>&gt;<br>&lt;<span>li</span>&gt;Элемент&lt;<span>/li</span>&gt;<br>&lt;<span>li</span>&gt;Элемент&lt;<span>/li</span>&gt;<br>&lt;<span>/ul</span>&gt;
+                    </code>
+                    <h6 class="m-t-10 m-b-5">Десятичные числа</h6>
+                    <ol class="ol-decimal">
+                        <li>Элемент</li>
+                        <li>Элемент</li>
+                        <li>Элемент</li>
+                    </ol>
+                    <code class="bg-gray white">
+                        &lt;<span>ol class="ol-decimal"</span>&gt;<br>&lt;<span>li</span>&gt;Элемент&lt;<span>/li</span>&gt;<br>&lt;<span>li</span>&gt;Элемент&lt;<span>/li</span>&gt;<br>&lt;<span>li</span>&gt;Элемент&lt;<span>/li</span>&gt;<br>&lt;<span>/ol</span>&gt;
+                    </code>
+                    <h6 class="m-t-10 m-b-5">Десятичные числа, перед которыми 0</h6>
+                    <ol class="ol-decimal-zero">
+                        <li>Элемент</li>
+                        <li>Элемент</li>
+                        <li>Элемент</li>
+                    </ol>
+                    <code class="bg-gray white">
+                        &lt;<span>ol class="ol-decimal-zero"</span>&gt;<br>&lt;<span>li</span>&gt;Элемент&lt;<span>/li</span>&gt;<br>&lt;<span>li</span>&gt;Элемент&lt;<span>/li</span>&gt;<br>&lt;<span>li</span>&gt;Элемент&lt;<span>/li</span>&gt;<br>&lt;<span>/ol</span>&gt;
+                    </code>
+                    <h6 class="m-t-10 m-b-5">Маленькие римские цифры</h6>
+                    <ol class="ol-rom-low">
+                        <li>Элемент</li>
+                        <li>Элемент</li>
+                        <li>Элемент</li>
+                    </ol>
+                    <code class="bg-gray white">
+                        &lt;<span>ol class="ol-rom-low"</span>&gt;<br>&lt;<span>li</span>&gt;Элемент&lt;<span>/li</span>&gt;<br>&lt;<span>li</span>&gt;Элемент&lt;<span>/li</span>&gt;<br>&lt;<span>li</span>&gt;Элемент&lt;<span>/li</span>&gt;<br>&lt;<span>/ol</span>&gt;
+                    </code>
+                    <h6 class="m-t-10 m-b-5">Большие римские цифры</h6>
+                    <ol class="ol-rom-up">
+                        <li>Элемент</li>
+                        <li>Элемент</li>
+                        <li>Элемент</li>
+                    </ol>
+                    <code class="bg-gray white">
+                        &lt;<span>ol class="ol-rom-up"</span>&gt;<br>&lt;<span>li</span>&gt;Элемент&lt;<span>/li</span>&gt;<br>&lt;<span>li</span>&gt;Элемент&lt;<span>/li</span>&gt;<br>&lt;<span>li</span>&gt;Элемент&lt;<span>/li</span>&gt;<br>&lt;<span>/ol</span>&gt;
+                    </code>
+                    <h6 class="m-t-10 m-b-5">Маленькие латинские буквы</h6>
+                    <ol class="ol-alpha-low">
+                        <li>Элемент</li>
+                        <li>Элемент</li>
+                        <li>Элемент</li>
+                    </ol>
+                    <code class="bg-gray white">
+                        &lt;<span>ol class="ol-alpha-low"</span>&gt;<br>&lt;<span>li</span>&gt;Элемент&lt;<span>/li</span>&gt;<br>&lt;<span>li</span>&gt;Элемент&lt;<span>/li</span>&gt;<br>&lt;<span>li</span>&gt;Элемент&lt;<span>/li</span>&gt;<br>&lt;<span>/ol</span>&gt;
+                    </code>
+                    <h6 class="m-t-10 m-b-5">Большие латинские буквы</h6>
+                    <ol class="ol-alpha-up">
+                        <li>Элемент</li>
+                        <li>Элемент</li>
+                        <li>Элемент</li>
+                    </ol>
+                    <code class="bg-gray white">
+                        &lt;<span>ol class="ol-alpha-up"</span>&gt;<br>&lt;<span>li</span>&gt;Элемент&lt;<span>/li</span>&gt;<br>&lt;<span>li</span>&gt;Элемент&lt;<span>/li</span>&gt;<br>&lt;<span>li</span>&gt;Элемент&lt;<span>/li</span>&gt;<br>&lt;<span>/ol</span>&gt;
+                    </code>
+                    <h6 class="m-t-10 m-b-5">Греческие буквы</h6>
+                    <ol class="ol-greek">
+                        <li>Элемент</li>
+                        <li>Элемент</li>
+                        <li>Элемент</li>
+                    </ol>
+                    <code class="bg-gray white">
+                        &lt;<span>ol class="ol-greek"</span>&gt;<br>&lt;<span>li</span>&gt;Элемент&lt;<span>/li</span>&gt;<br>&lt;<span>li</span>&gt;Элемент&lt;<span>/li</span>&gt;<br>&lt;<span>li</span>&gt;Элемент&lt;<span>/li</span>&gt;<br>&lt;<span>/ol</span>&gt;
+                    </code>
+                </div>
+                <div class="divider m-t-30"></div>
+                <div class="col-12 m-t-30">
+                    <h6>Границы</h6>
+                    <p>Рамки для текста.</p>
+                    <p class="m-t-10 b-solid">Линия</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="b-solid"</span>&gt;Линия&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="m-t-10 b-dashed">Штрихи</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="b-dashed"</span>&gt;Штрихи&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="m-t-10 b-dotted">Точки</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="b-dotted"</span>&gt;Точки&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="m-t-10 b-double">Двойная</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="b-double"</span>&gt;Двойная&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="m-t-10 b-inset">Внутрь</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="b-inset"</span>&gt;Внутрь&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="m-t-10 b-outset">Наружу</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="b-outset"</span>&gt;Наружу&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="m-t-10 b-ridge">3D-1</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="b-ridge"</span>&gt;3D-1&lt;<span>/p</span>&gt;
+                    </code>
+                    <p class="m-t-10 b-groove">3D-2</p>
+                    <code class="bg-gray white">
+                        &lt;<span>p class="b-groove"</span>&gt;3D-2&lt;<span>/p</span>&gt;
+                    </code>
+                </div>
+                <div class="divider m-t-30"></div>
+                <div class="col-12 m-t-30">
+                    <h5>Детали</h5>
+                    <p>Благодаря нашему классу, вы можете сразу красиво оформить элемент <span
+                            class="red">details</span>. Мы не стали делать автоматическое оформление данного элемента,
+                        так как может кому-то оно не понравится.</p>
+                    <h6 class="m-t-10">С нашим классом</h6>
+                    <details class="details-ebc">
+                        <summary>Заголовок</summary>
+                        <div>Текст.</div>
+                    </details>
+                    <code class="bg-gray white">
+                        &lt;<span>details class="details-ebc"</span>&gt;<br>&lt;<span>summary</span>&gt;Заголовок&lt;<span>/summary</span>&gt;<br>&lt;<span>div</span>&gt;Текст.&lt;<span>/div</span>&gt;<br>&lt;<span>/details</span>&gt;
+                    </code>
+                    <h6 class="m-t-10">Без нашего класса</h6>
+                    <details>
+                        <summary>Заголовок</summary>
+                        <div>Текст.</div>
+                    </details>
+                    <code class="bg-gray white">
+                        &lt;<span>details</span>&gt;<br>&lt;<span>summary</span>&gt;Заголовок&lt;<span>/summary</span>&gt;<br>&lt;<span>div</span>&gt;Текст.&lt;<span>/div</span>&gt;<br>&lt;<span>/details</span>&gt;
+                    </code>
+                </div>
+                <div class="divider m-t-30"></div>
+                <div class="col-12 m-t-30">
+                    <h5>Прелоудер</h5>
+                    <p>Невероятно красивая современная анимация загрузки.</p>
+                    <div class="loading-sphere">
+                        <div class="line one"></div>
+                        <div class="line two"></div>
+                        <div class="line three"></div>
+                        <div class="line four"></div>
+                    </div>
+                    <code class="bg-gray white">
+                        &lt;<span>div class="loading-sphere"</span>&gt;<br>&lt;<span>div class="line one"</span>&gt;&lt;<span>/div</span>&gt;<br>&lt;<span>div class="line two"</span>&gt;&lt;<span>/div</span>&gt;<br>&lt;<span>div class="line three"</span>&gt;&lt;<span>/div</span>&gt;<br>&lt;<span>div class="line four"</span>&gt;&lt;<span>/div</span>&gt;<br>&lt;<span>/div</span>&gt;
+                    </code>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 center">
+                    <h4 class="m-t-50 m-b-50">Разработчики</h4>
+                    <h6>Адаптивные заголовки - Алексей Мыльников.</h6>
+                    <h6>Дополнительные функции - Евгений Мыльников.</h6>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 center">
+                    <h4 class="m-t-50 m-b-50">Дополнительный материал</h4>
+                    <h6>Протестируйте нашу библиотеку на платформе <a
+                            href="https://stackblitz.com/edit/adaptive-text-ebc?file=index.html"
+                            target="_blank">StackBlitz</a>. <sup class="red up">Полезно! Не нужно скачивать
+                            библиотеку!</sup></h6>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 center">
+                    <h4 class="m-t-50 m-b-50">Поддержать разработчиков</h4>
+                    <iframe
+                        src="https://yoomoney.ru/quickpay/shop-widget?writer=seller&targets=%D0%9F%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D1%82%D1%8C%20%D1%80%D0%B0%D0%B7%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%87%D0%B8%D0%BA%D0%BE%D0%B2&default-sum=100&button-text=13&payment-type-choice=on&successURL=&quickpay=shop&account=410015508876577&"
+                        width="423" height="222" frameborder="0" allowtransparency="true" scrolling="no"></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 center">
+                    <h4 class="m-t-50 m-b-50">Поделись нашей библиотекой с друзьями</h4>
+                    <div class="ya-share2" data-curtain data-size="l" data-shape="round"
+                        data-services="vkontakte,odnoklassniki,telegram,twitter,viber,whatsapp,skype"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__flex">
+                <div class="footer__flex-left">
+                    <p id="copyright">© 2022 Eugene Blogs Company</p>
+                </div>
+                <div class="footer__flex-center">
+                    <p class="white">Все права защищены.</p>
+                </div>
+                <div class="footer__flex-right">
+                    <p>Разработано лучшей студией программирования :)</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        window.onload = function () {
+            document.getElementById("copyright").innerHTML = `© ${new Date().getUTCFullYear()} Eugene Blogs Company`
+        };
+    </script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script src="https://yastatic.net/share2/share.js"></script>
+</body>
+
+</html>
